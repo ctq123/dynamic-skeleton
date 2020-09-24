@@ -1,0 +1,48 @@
+.my-rc-anchor {
+  padding: 5px;
+  border: 1px solid #e4e4e4;
+}
+
+.flex {
+  display: flex;
+}
+
+.my-rc-anchor .my-rc-anchor-header {
+  padding: 5px 0px;
+}
+
+.my-rc-anchor .my-rc-anchor-header2 {
+  position: relative;
+  float: right;
+}
+
+.my-rc-anchor .my-rc-title-item {
+  padding: 2px 3px;
+  margin-right: 5px;
+}
+
+.my-rc-anchor .rc-title-item-active {
+  background-color: blue;
+  color: white;
+}
+
+.my-rc-anchor .my-rc-anchor-body {
+  border-top: 1px solid #e4e4e4;
+}
+
+.my-rc-anchor .my-body-item {
+  height: 600px;
+  padding: 5px;
+}
+
+.my-rc-anchor .my-body-item2 {
+  height: 50px;
+}
+
+.my-rc-anchor .my-body-item:nth-child(odd) {
+  background-color: green
+}
+
+.my-rc-anchor .my-body-item:nth-child(even) {
+  background-color: red
+}
